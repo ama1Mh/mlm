@@ -1,5 +1,5 @@
 // Replace with your OpenAI API key
-const apiKey = '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'
+const apiKey = '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'
 document.getElementById('Form').addEventListener('submit', async function(event) {
     event.preventDefault();
 
