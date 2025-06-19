@@ -5,7 +5,8 @@ require('dotenv').config();
 
 // 2. Import necessary modules
 const express = require('express');
-const fetch = require('node-fetch'); // For making HTTP requests in Node.js
+const fetch = require('node-fetch'); 
+console.log('Value of fetch:', typeof fetch);
 const path = require('path'); // For serving static files
 
 // 3. Get your API key from environment variables

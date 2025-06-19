@@ -1,7 +1,3 @@
-// public/app.js
-
-// Removed: require('dotenv').config();
-// Removed: const apiKey = process.env.API_KEY;
 
 document.getElementById('Form').addEventListener('submit', async function(event) {
     event.preventDefault();
