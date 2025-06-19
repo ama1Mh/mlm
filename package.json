@@ -1,26 +1,23 @@
 {
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "node-fetch": "^2.7.0"
-  },
   "name": "mlm",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "A simple Node.js chat application using OpenAI API on Render.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ama1Mh/mlm.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ama1Mh/mlm/issues"
-  },
-  "homepage": "https://github.com/ama1Mh/mlm#readme"
+  "keywords": [
+    "nodejs",
+    "express",
+    "openai",
+    "chat",
+    "render"
+  ],
+  "author": "Your Name Here",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
 }
